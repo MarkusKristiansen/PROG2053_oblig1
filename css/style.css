@@ -1,0 +1,215 @@
+@font-face {
+    font-family:"Roboto";
+    src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+
+  @font-face {
+    font-family:"Roboto";
+    src: url("../fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-color: #1f2937;
+}
+
+header h3{
+    text-align: center;
+    color: #fff;
+    padding: 20px 40px;
+}
+
+nav {
+    text-align: center;
+    border-bottom: 2px solid #293746;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav a {
+    color: #fff;
+    display: block;
+    padding: 20px 40px;
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+.text-section{
+    flex: 1;
+    padding: 5% 10%;
+}
+
+.text-section h1 {
+    margin-bottom: 20px;
+}
+
+.text-section p {
+    margin-bottom: 20px;
+}
+
+.content button {
+    background-color: #3882f6;
+    border: 1px solid #3882f6;
+    color: #f9faf8;
+    padding: 10px 20px;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+
+.image-section {
+    flex: 1;
+    flex: 0 0 auto;
+    padding: 5% 10%;
+}
+
+.image-section img {
+    width: 400px;
+    height: 200px;
+    background-color: gray;
+    display: block;
+}
+
+.randomInfo{
+    width: 800px; 
+    text-align: left;
+    margin: 0 auto;
+}
+
+.txtImg{
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.randomInfo p{
+    padding-top: 5%;
+}
+
+.randomInfo h2{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.randomInfo img{
+    width: 300px;
+    height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+
+#left{
+    float: left;
+    margin-right: 25px;
+}
+
+#right{
+    float: right;
+    margin-left: 25px;
+}
+
+.quote{
+    background-color: lightgrey;
+    margin-top: 200px;
+    padding: 100px;
+}
+
+#quotetxt{
+    font-style: italic;
+    text-shadow: gray 1px 0px 5px;
+    text-align: left;
+}
+
+#signature{
+    font-weight: bold;
+    text-align: right;
+}
+
+.CallToAction {
+    background-color: #3882f6;
+    color: white;
+    padding: 100px;
+    padding-top: 50px;
+    width: 600px;
+    margin: auto;
+    float: none;
+    border-radius: 10px;
+    margin: 100px auto;
+}
+
+.cta-content{
+    width: 50%;
+    float: left;
+}
+
+.CallToAction button {
+    float: right;
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.CallToAction button:hover{
+    background-color: white;
+    color: #3882f6;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+footer {
+    color: white;
+    background-color: #212935;
+    text-align: center;  
+    padding: 50px 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 800px;
+    margin: auto;
+    float: none;
+}
+article {
+    width: 25%;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+article h1{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #293746;
+}
+
+article p{
+    padding-top: 10px;
+}
